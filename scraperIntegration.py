@@ -4,11 +4,11 @@ from Player import Player
 from Scraper import Scraper
 
 class ScraperIntegrationTest(unittest.TestCase):
-    #def test_getting_player(self):
-       # self.menu = Menu()
-        #self.menu.players.append(Player("yogi", "berra"))
-        #player = self.menu.getPlayer("yogi", "berra")
-        #self.assertEqual(player.getFirstName(), "yogi")
+    def test_getting_player(self):
+        self.menu = Menu()
+        self.menu.players.append(Player("yogi", "berra"))
+        player = self.menu.getPlayer("yogi", "berra")
+        self.assertEqual(player.getFirstName(), "yogi")
 
     def test_has_player(self):
         self.menu = Menu()
