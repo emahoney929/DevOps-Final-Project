@@ -26,7 +26,7 @@ class ScraperUnitTest(unittest.TestCase):
     def test_correct_player_count(self):
         self.menu = Menu()
         self.menu.increaseCount()
-        self.assertEqual(self.menu.getPlayerCount(), 2)
+        self.assertEqual(self.menu.getPlayerCount(), 1)
 
     def test_correct_stats(self):
         self.player = Player()
