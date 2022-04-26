@@ -23,7 +23,7 @@ class ScraperIntegrationTest(unittest.TestCase):
 
     def test_get_player_stats(self):
         self.menu = Menu()
-        self.menu.getPlayerStats(Player("yogi", "berra"), "1946")
+        player = self.menu.getPlayerStats(Player("yogi", "berra"), "1946")
         self.assertEqual(player.getFirstName(), "yogi")
 
 
