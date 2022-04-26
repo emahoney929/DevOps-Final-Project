@@ -25,7 +25,11 @@ class ScraperIntegrationTest(unittest.TestCase):
         self.menu = Menu()
         player = self.menu.getPlayerStats(Player("yogi", "berra"), "1946")
         self.assertEqual(player.getFirstName(), "yogi")
-
+        
+    def test_scrape_enough_info(self):
+        self.scraper = Scraper()
+        player = self.scraper.scrapeInfo(Player("yogi", "berra"), 1946)
+        self.assertEqual(len(player.playerStats), 2)
 
 
 if __name__ == "__main__":
