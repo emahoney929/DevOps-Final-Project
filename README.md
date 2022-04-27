@@ -8,8 +8,8 @@ during the specified year from the webscraper. The information comes from the we
 https://www.baseball-reference.com/
 
 # Directions To Run Program
-Pull the Docker image from DockerHub using the following command in your terminal: docker pull emahoney929/scraper:latest
-Run the Docker image from the terminal using the following command: docker run -i emahoney929/scraper
+- Pull the Docker image from DockerHub using the following command in your terminal: docker pull emahoney929/scraper:latest
+- Run the Docker image from the terminal using the following command: docker run -i emahoney929/scraper
 
 # Pipeline Overview
 After every push is made to the main branch, a workflow is created to in order to conduct unit and integration
