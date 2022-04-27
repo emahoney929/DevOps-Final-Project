@@ -7,8 +7,9 @@ this program prompts users to pick a baseball player and a year in order to rece
 during the specified year from the webscraper. The information comes from the website:
 https://www.baseball-reference.com/
 
-After pulling the container image from Docker, run the program using the following command:
-docker run -i emahoney929/scraper
+# Directions To Run Program
+Pull the Docker image from DockerHub using the following command in your terminal: docker pull emahoney929/scraper:latest
+Run the Docker image from the terminal using the following command: docker run -i emahoney929/scraper
 
 # Pipeline Overview
 After every push is made to the main branch, a workflow is created to in order to conduct unit and integration
