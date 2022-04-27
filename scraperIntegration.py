@@ -8,7 +8,7 @@ class ScraperIntegrationTest(unittest.TestCase):
         self.menu = Menu()
         self.menu.players.append(Player("yogi", "berra"))
         player = self.menu.getPlayer("yogi", "berra")
-        self.assertEqual(player.getFirstName(), "yofgi")
+        self.assertEqual(player.getFirstName(), "yogi")
 
     def test_has_player(self):
         self.menu = Menu()
