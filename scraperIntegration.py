@@ -1,3 +1,7 @@
+# Author: Ethan Mahoney
+# Class: CS491 - DevOps
+# Project: Integration test class to test integration of 
+# multiple objects working together
 import unittest
 from Menu import Menu
 from Player import Player
